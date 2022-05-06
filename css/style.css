@@ -127,7 +127,7 @@ p {
   min-height: 100%;
 }
 
-#home-info .info-content{
+#home-info .info-content {
   float: right;
   width: 50%;
   height: 100%;
@@ -136,19 +136,63 @@ p {
   overflow: hidden;
 }
 
-.bg-dark{
+.bg-dark {
   background: #4b729f;
   color: #333;
 }
-.bg-light{
+.bg-light {
   background: #fff;
   color: #333;
 }
-.bg-primary{
+.bg-primary {
   color: #fff;
   background: #4b729f;
 }
 
-#home-info .info-content p{
+#home-info .info-content p {
   padding-bottom: 30px;
+}
+
+/* Features Section */
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.clr {
+  clear: both;
+}
+
+/* For About Info */
+#about-info .info-right{
+float: right;
+width: 50%;
+min-height: 100%;
+}
+
+#about-info .info-right img{
+  width: 70%;
+display: block;
+margin: auto;
+border-radius: 10px;
+}
+
+#about-info .info-left{
+float: left;
+width: 50%;
+min-height: 100%;
 }
